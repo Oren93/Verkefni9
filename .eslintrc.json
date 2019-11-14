@@ -1,0 +1,20 @@
+{
+    "parser": "babel-eslint",
+
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "no-use-before-define": "off",
+        "prettier/prettier": "off",
+        "global-require": "warn",
+        "no-undef": "off",
+        "prefer-template": "off",
+        "no-console": "off"
+        }
+}
